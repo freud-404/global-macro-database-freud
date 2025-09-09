@@ -1,5 +1,5 @@
 # This file was automatically generated
-name: kk
+name: gmd
 type: duckdb
 options:
   filename: gmd.duckdb

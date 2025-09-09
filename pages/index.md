@@ -14,7 +14,7 @@ SELECT
     year,
     SUM(nGDP_USD) as total_gdp_usd_billions,
     COUNT(DISTINCT countryname) as countries_with_data
-FROM gmd
+FROM kk
 WHERE year >= 1900 
     AND nGDP_USD IS NOT NULL 
     AND nGDP_USD > 0
