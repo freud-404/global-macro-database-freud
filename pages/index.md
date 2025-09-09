@@ -22,7 +22,7 @@ GROUP BY year
 ORDER BY year
 ```
 
-## Total Global GDP in USD (Billions) Since 1900
+## Total Global GDP in USD (Billions) Since 1900 
 
 <LineChart 
     data={global_gdp_by_year}
