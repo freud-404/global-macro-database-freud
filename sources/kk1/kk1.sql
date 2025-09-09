@@ -1,1 +1,0 @@
-select * from kk1 limit 100
