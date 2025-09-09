@@ -1,1 +1,0 @@
-select * from gmd limit 100
