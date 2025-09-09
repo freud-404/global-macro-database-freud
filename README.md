@@ -27,7 +27,7 @@ Once it is done, please sned us the link to the GitHub repo and the link to the 
 
 We will have a look at it and get back to you with feedback. If we like it, we will invite you to a follow-up interview where you can present your dashboard and discuss your approach.
 
-
+ 
 # Workflow
 - You need a github account to work on this task. Since the repository is going to be public, you might want to use a throwaway account.
 - Fork this repository to your account: https://github.com/sztanko/global-macro-database
