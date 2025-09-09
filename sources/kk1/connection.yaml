@@ -2,4 +2,4 @@
 name: kk1
 type: duckdb
 options:
-  filename: gmd.duckdb
+  filename: kk1.duckdb
