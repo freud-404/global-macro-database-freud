@@ -1,1 +1,1 @@
-select * from gmd
+select * from gmd limit 100

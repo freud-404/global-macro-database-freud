@@ -14,7 +14,7 @@ SELECT
     year,
     SUM(nGDP_USD) as total_gdp_usd_billions,
     COUNT(DISTINCT countryname) as countries_with_data
-FROM gmd 
+FROM gmd
 WHERE year >= 1900 
     AND nGDP_USD IS NOT NULL 
     AND nGDP_USD > 0
@@ -38,7 +38,7 @@ ORDER BY year
 
 - **Countries in Dataset**: <Value data={global_gdp_by_year} column=countries_with_data agg=max/> countries have GDP data
 - **Latest Year GDP**: $<Value data={global_gdp_by_year} column=total_gdp_usd_billions agg=max fmt="#,##0,,"/> trillion USD
-- **Data Coverage**: <Value data={global_gdp_by_year} column=year agg=min/> - <Value data={global_gdp_by_year} column=year agg=min/>
+- **Data Coverage**: <Value data={global_gdp_by_year} column=year agg=min/> - <Value data={global_gdp_by_year} column=year agg=max/>
 
 ```sql recent_growth
 SELECT 
